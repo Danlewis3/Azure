@@ -1,2 +1,2 @@
 # Azure
-Azure PowerShell Scripts
+Azure Automation PowerShell Scripts
