@@ -7,6 +7,7 @@ $mycreds = New-Object System.Management.Automation.PSCredential ("e8d34963-8a5c-
 Login-AzureRmAccount -ServicePrincipal -Tenant 1a92889b-8ea1-4a16-8132-347814051567 -Credential $mycreds
 
 Set-AzureRmContext -TenantId 1a92889b-8ea1-4a16-8132-347814051567
+ Set-AzureSubscription -SubscriptionName SFA-Das-comt-dev
 
 $task= "das-$env:enviroment-task-rg"
 $comt="das-$env:enviroment-comt-rg"
